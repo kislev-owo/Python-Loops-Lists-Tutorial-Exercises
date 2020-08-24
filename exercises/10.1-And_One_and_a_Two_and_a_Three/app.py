@@ -5,3 +5,7 @@ contact = {
 }
 #Your code here:
 
+for key in contact:
+    print(key +" : " +contact[key])
+
+    ## se explico en clases
