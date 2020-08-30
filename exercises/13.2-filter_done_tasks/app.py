@@ -11,5 +11,8 @@ tasks = [
 ]
 
 
-#Your code go here:
+# Usando la misma pagina del ejercicio anterior
 
+filtro = list(filter(lambda tasks: tasks["done"] == True, tasks))
+
+print(filtro)
